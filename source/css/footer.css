@@ -1,0 +1,19 @@
+.footer {
+  padding: 100px 0px 0px 0px;
+  background-color: #010101;
+}
+.footer__title {
+  margin-bottom: 15px;
+}
+.footer__text {
+  width: 716px;
+  margin: 0px auto 69px auto;
+}
+@media (max-width: 767px) {
+  .footer__text {
+    width: auto;
+  }
+}
+.footer__row {
+  display: flex;
+}
